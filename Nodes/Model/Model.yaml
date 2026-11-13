@@ -1,0 +1,55 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: BU
+  Id: g=d304d7733d946fa2e82150919e98df20
+  Supertype: BaseObjectType
+  Children:
+  - Name: ITD
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: SWC
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../NetLogic/VariablesSimulator/Sine"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../NetLogic/VariablesSimulator/Cosine"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../NetLogic/VariablesSimulator/Ramp"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- File: RetentivityDemo/RetentivityDemo.yaml
+- File: EventLogger/EventLogger.yaml
+- File: ComplexData/ComplexData.yaml

@@ -1,0 +1,27 @@
+Name: ComplexData
+Id: g=0a707d3e29dcfa5f1d0b544ca895e51b
+Type: FolderType
+Children:
+- Name: Rockwell
+  Id: g=cf59f181603a448c7dc8eac1dbae4554
+  Type: BaseObjectType
+  Children:
+  - Name: Financial
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 70
+  - Name: BU_1
+    Type: BU
+    Children:
+    - Name: ITD
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 60
+    - Name: SWC
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 80
+  - Name: HR
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 80

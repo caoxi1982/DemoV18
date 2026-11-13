@@ -1,0 +1,4 @@
+Name: RADeviceDriver1
+Type: RADeviceDriver
+Children:
+- File: RADeviceStation1/RADeviceStation1.yaml

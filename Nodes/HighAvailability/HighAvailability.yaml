@@ -1,0 +1,5 @@
+Name: HighAvailability
+Type: HighAvailabilityCategoryFolder
+Children:
+- Name: HighAvailability
+  Type: HighAvailability

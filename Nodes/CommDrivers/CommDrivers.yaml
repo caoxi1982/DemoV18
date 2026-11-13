@@ -1,0 +1,4 @@
+Name: CommDrivers
+Type: CommDriversCategoryFolder
+Children:
+- File: RADeviceDriver1/RADeviceDriver1.yaml

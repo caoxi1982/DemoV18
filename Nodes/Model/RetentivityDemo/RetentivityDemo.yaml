@@ -1,0 +1,20 @@
+Name: RetentivityDemo
+Id: g=c27b70575b5b487e32554642fbb8585a
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=ead02b5e6e6515ece31acfd3bc2a17e8
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Id: g=cf01358f4d56f3adac141d3f9ae3083b
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable3
+  Id: g=87ed28f7fd08684ca96d2657fc1e40a7
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable4
+  Id: g=5e501391a920f2ebc8185efd72d80613
+  Type: BaseDataVariableType
+  DataType: Int32

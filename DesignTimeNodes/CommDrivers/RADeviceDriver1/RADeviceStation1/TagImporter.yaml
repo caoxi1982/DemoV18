@@ -1,0 +1,14 @@
+Name: TagImporter
+Type: RADeviceTagImporter
+OwnerId: ns=2;g=2286201681ad098a0b4e782f371c9804
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]

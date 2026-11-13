@@ -53,3 +53,4 @@ Children:
 - File: RetentivityDemo/RetentivityDemo.yaml
 - File: EventLogger/EventLogger.yaml
 - File: ComplexData/ComplexData.yaml
+- File: MQTTDatalogger/MQTTDatalogger.yaml

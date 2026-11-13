@@ -1,0 +1,13 @@
+Name: MQTTDatalogger
+Id: g=f68a3fa48810f8225339548e5d75e1f7
+Type: FolderType
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32

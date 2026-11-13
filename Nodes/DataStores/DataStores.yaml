@@ -62,7 +62,7 @@ Children:
         Direction: Forward
       - Name: Columns
         Type: BaseObjectType
-    - Name: AlarmsEventLogger1
+    - Name: DataLoggerFromMQTT
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -80,40 +80,21 @@ Children:
       - Name: Columns
         Type: BaseObjectType
         Children:
-        - Name: ActiveState_Id
-          Type: StoreColumn
-          DataType: Boolean
-        - Name: AckedState_Id
-          Type: StoreColumn
-          DataType: Boolean
-        - Name: ConfirmedState_Id
-          Type: StoreColumn
-          DataType: Boolean
-        - Name: ConditionName
-          Type: StoreColumn
-          DataType: String
-        - Name: EnabledState_Id
-          Type: StoreColumn
-          DataType: Boolean
-        - Name: SourceName
-          Type: StoreColumn
-          DataType: String
-        - Name: Time
+        - Name: Timestamp
           Type: StoreColumn
           DataType: UtcTime
-        - Name: 'Message_en-US'
-          Type: StoreColumn
-          DataType: String
-        - Name: Severity
-          Type: StoreColumn
-          DataType: UInt16
-        - Name: LocalTime
+        - Name: LocalTimestamp
           Type: StoreColumn
           DataType: DateTime
-      - Name: RecordLimit
-        Type: BaseDataVariableType
-        DataType: UInt32
-        Value: 3000
+        - Name: Variable1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Variable2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Variable3
+          Type: StoreColumn
+          DataType: Int32
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward

@@ -155,15 +155,15 @@ Project:
    Module: FTOptix.HighAvailability.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 1873
-  Objects: 426
+  TotalNodeCount: 2020
+  Objects: 447
   ObjectTypes: 17
-  Variables: 1425
+  Variables: 1551
   VariableTypes: 0
   DataTypes: 0
   Methods: 5
-  References: 91
+  References: 96
   ReferenceTypes: 0
-  Files: 33
+  Files: 34
  Nodes:
  - File: Nodes/DemoV18.yaml

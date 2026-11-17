@@ -1,0 +1,12 @@
+Name: NotRetentivityDemo
+Type: FolderType
+Children:
+- Name: UnVariable1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: UnVariable2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: UnVariable3
+  Type: BaseDataVariableType
+  DataType: Int32

@@ -1425,6 +1425,29 @@ Children:
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 400.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 660.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 510.0
   - Name: Button2
     Type: Button
     Children:
@@ -1514,6 +1537,130 @@ Children:
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
+  - Name: SpinBox5
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/DemoV18/Model/NotRetentivityDemo/UnVariable1"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 742.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 557.0
+  - Name: SpinBox6
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/DemoV18/Model/NotRetentivityDemo/UnVariable3"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 760.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 685.0
+  - Name: SpinBox7
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/DemoV18/Model/NotRetentivityDemo/UnVariable2"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 750.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 640.0
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"no retentivity"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 654.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 474.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 146.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 16.0
 - Name: MQTTEventLogComplexData
   Id: g=5d57704fd1391121db6908267e7ee378
   Supertype: Screen
